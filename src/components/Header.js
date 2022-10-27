@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
     marginHorizontal:10,
     paddingHorizontal:10,
     marginTop:15,
-    alignItems:'center'
+    alignItems:'center',
+    // borderBottomWidth:1
   },
   user:{
     borderWidth:0.4,

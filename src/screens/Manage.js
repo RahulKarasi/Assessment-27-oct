@@ -5,6 +5,7 @@ import AccountDetail from '../components/AccountDetail'
 import OfferRail from '../components/OfferRail'
 import ReferSection from '../components/ReferSection'
 import Shortcuts from '../components/Shortcuts'
+import ForYou from '../components/ForYou'
 
 const Manage = () => {
   return (
@@ -22,6 +23,7 @@ const Manage = () => {
         <ReferSection/>
         <Shortcuts heading='SHORTCUTS'/>
         <Shortcuts heading='BUY NEW SERVICE'/>
+        <ForYou/>
       </View>
       </ScrollView>
       
@@ -32,7 +34,8 @@ const Manage = () => {
 const styles=StyleSheet.create({
     mainContainer:{
         backgroundColor:'rgb(240,240,250)',
-        marginTop:12
+        marginTop:12,
+        borderTopWidth:0.2
     },
     enable5G:{
         flexDirection:'row',
